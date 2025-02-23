@@ -1,76 +1,102 @@
+<h2>TaskTrooper - Task Management Application</h2>
 
-🚀 TaskTrooper | Ultimate Team Task Manager ⚔️✨
-Organize, Track, and Conquer Tasks Like a Pro!
+<p>TaskTrooper is a MERN stack-based task management application that supports both admin and user logins, with different priority levels for tasks (Normal, Medium, High). Admins can manage tasks, while users can manage their own tasks and progress.</p>
 
+<h3>🎮 Features</h3>
+<ul>
+  <li><strong>Admin Login</strong>: Admins can manage all tasks, assign priorities, and oversee user activities.</li>
+  <li><strong>User Login</strong>: Users can log in and track their own tasks based on priorities.</li>
+  <li><strong>Task Prioritization</strong>: Tasks can be categorized as Normal, Medium, or High priority.</li>
+  <li><strong>Task Management</strong>: Admins can create, edit, and delete tasks.</li>
+  <li><strong>User Dashboard</strong>: Users have access to their own task lists, organized by priority.</li>
+</ul>
 
-TaskTrooper is a MERN stack-powered web application designed to supercharge team productivity. Whether you're working with a remote team or managing tasks solo, TaskTrooper ensures seamless collaboration, efficient tracking, and powerful task management tools—all in one place.
+<h3>🛠️ Installation</h3>
+<p>Make sure you have <strong>Node.js</strong> and <strong>MongoDB</strong> installed on your machine. Then, follow these steps to set up the project:</p>
 
-🎯 Why TaskTrooper?
-Managing tasks with outdated methods like spreadsheets or manual tracking is inefficient and frustrating. TaskTrooper solves this by offering a modern, AI-powered task manager with real-time updates, seamless collaboration, and a user-friendly interface.
+<pre><code>1. Clone the repository:
+   git clone https://github.com/yourusername/TaskTrooper.git
+   cd TaskTrooper
 
-⚡ No more scattered tasks—stay focused, stay ahead!
+2. Install backend dependencies:
+   cd backend
+   npm install
 
-🌍 Background & Vision
-With remote work and distributed teams becoming the new norm, efficient communication & task coordination are crucial. TaskTrooper is built to provide:
+3. Install frontend dependencies:
+   cd frontend
+   npm install
 
-✅ A streamlined task management experience
-✅ A scalable solution for teams & individuals
-✅ A secure & intuitive platform with real-time collaboration
+4. Create a .env file in the backend directory and set the following variables:
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+</code></pre>
 
-🔥 Key Features
-🛡️ Admin Features
-✔ User Management: Create and manage team members
-✔ Task Assignment: Assign & track tasks effortlessly
-✔ Task Properties: Set priorities, labels, and sub-tasks
-✔ Asset Management: Upload and attach files to tasks
-✔ User Control: Enable, disable, or delete user accounts
+<h3>▶️ How to run</h3>
+<pre><code>1. Start the backend server:
+   cd backend
+   npm start
 
-⚔️ User Features
-✔ Task Interaction: Update progress & manage statuses
-✔ Communication: Add comments or chat on tasks
+2. Start the frontend server:
+   cd frontend
+   npm start
 
-🌟 General Features
-✔ Secure Authentication: Role-based access control
-✔ Profile Management: Update user profiles seamlessly
-✔ Password Management: Secure password updates
-✔ Dashboard: Filter and track tasks in real time
+3. Access the app in your browser at http://localhost:3000.</code></pre>
 
-🛠 Tech Stack
-💻 Frontend:
-React (Vite) ⚡
-Redux Toolkit for State Management
-Headless UI & Tailwind CSS
-🚀 Backend:
-Node.js with Express.js
-🛢 Database:
-MongoDB for Scalable & Efficient Data Storage
-📌 Installation & Setup
-🔧 1. Clone the Repository
+<h3>🖥️ Controls</h3>
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td><strong>Admin Login</strong></td>
+    <td>Log in as an admin</td>
+  </tr>
+  <tr>
+    <td><strong>User Login</strong></td>
+    <td>Log in as a regular user</td>
+  </tr>
+  <tr>
+    <td><strong>Create Task</strong></td>
+    <td>Admin can create new tasks</td>
+  </tr>
+  <tr>
+    <td><strong>Update Task</strong></td>
+    <td>Users can update their tasks</td>
+  </tr>
+  <tr>
+    <td><strong>Assign Priority</strong></td>
+    <td>Admins can assign task priorities</td>
+  </tr>
+</table>
 
-git clone https://github.com/sahilmd01/TaskTrooper.git
-cd TaskTrooper
+<h3>📂 File Structure</h3>
+<pre><code>TaskTrooper/
+├── backend/         # Backend server code (Express, MongoDB)
+│   ├── controllers/ # Handles API requests
+│   ├── models/      # Mongoose models for MongoDB
+│   ├── routes/      # API routes
+│   └── server.js    # Backend server setup
+├── frontend/        # Frontend code (React)
+│   ├── components/  # React components
+│   └── App.js       # Main frontend application
+├── .env             # Environment variables
+├── README.md        # Project documentation
+</code></pre>
 
-🏗 2. Install Dependencies
-For Client (Frontend)
+<h3>🚀 Future Improvements</h3>
+<ul>
+  <li>Implement notifications for task deadlines.</li>
+  <li>Integrate email reminders for users.</li>
+  <li>Add advanced task filtering and sorting.</li>
+  <li>Enable task sharing between users.</li>
+</ul>
 
-cd client
-npm install
-npm run dev
+<h3>📜 License</h3>
+<p>This project is open-source and licensed under the MIT License.</p>
 
-For Server (Backend)
+<hr>
 
-cd server
-npm install
-npm start
+<p>Enjoy using TaskTrooper! 📋🚀</p>
 
-
-💡 Contributing
-Want to make TaskTrooper even better? Contributions are welcome! Fork the repo, create a new branch, and submit a pull request.
-
-📜 License
-This project is licensed under the MIT License.
-
-🏆 Developed & Maintained By
-🚀 CodeWithKinu | "Learn, Build, Conquer!"
-
-🌟 Follow & Subscribe for more awesome projects!
+>
