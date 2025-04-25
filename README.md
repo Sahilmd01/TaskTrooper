@@ -1,4 +1,4 @@
-<h2>TaskTrooper - Task Management Application</h2>
+<h2>TaskTrooper - Task Management Application</h2> ZIDIO TASK MANAGER
 
 <p>TaskTrooper is a MERN stack-based task management application that supports both admin and user logins, with different priority levels for tasks (Normal, Medium, High). Admins can manage tasks, while users can manage their own tasks and progress.</p>
 
